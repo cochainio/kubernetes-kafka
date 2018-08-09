@@ -12,4 +12,8 @@ spec:
     targetPort: 9094
     port: 32400
     nodePort: 32400
+  - protocol: TCP
+    targetPort: 5555
+    port: 5555
+    nodePort: 5555
   type: NodePort
