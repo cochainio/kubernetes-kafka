@@ -13,9 +13,4 @@ spec:
     port: 32400
     nodePort: 32400
     name: kafka
-  - protocol: TCP
-    targetPort: 32555
-    port: 32555
-    nodePort: 32555
-    name: jmx
   type: NodePort
