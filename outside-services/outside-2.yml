@@ -14,8 +14,8 @@ spec:
     nodePort: 32402
     name: kafka
   - protocol: TCP
-    targetPort: 5555
-    port: 5555
-    nodePort: 5555
+    targetPort: 32555
+    port: 32555
+    nodePort: 32555
     name: jmx
   type: NodePort
